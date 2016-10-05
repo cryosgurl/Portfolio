@@ -59,31 +59,25 @@
   <div class="contact" id="contact">
     <h2>Contact</h2>
     <div class="contactContainer">
-
       <form action="mailto:mandy@competa.com" method="post" enctype="text/plain">
         <div>
-          <span>Name:<span>
-            <input type="text" name="name">
-          </div>
-          <div>
-            <span>E-mail:<span>
-              <input type="text" name="subject">
-            </div>
-            <div>
-              <span>Subject:<span>
-                <input type="text" name="mail">
-              </div>
-              <div>
-                <span>Comment:<span>
-                  <textarea name="comment" maxlength="1000" cols="25" rows="6"></textarea>
-                </div>
-                <div>
-                  <input type="submit" value="Send">
-                </div>
-              </form>
-            </div>
+          <p>Name:<input type="text" name="name"></p>
+        </div>
+        <div>
+          <p>E-mail:<input type="text" name="subject"></p>
+        </div>
+        <div>
+          <p>Subject:<input type="text" name="mail"></p>
+        </div>
+        <div>
+          <p>Comment:<textarea name="comment" maxlength="1000" cols="25" rows="6"></textarea></p>
+        </div>
+        <div>
+          <input type="submit" value="Send">
+        </div>
+      </form>
     </div>
-
+  </div>
 </div>
 
 <?php include 'inc/header.php'; ?>
