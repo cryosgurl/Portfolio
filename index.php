@@ -27,6 +27,7 @@
   </div>
 
   <div class="skills" id="skills">
+    <h2>Skills</h2>
     <div class="contentContainer">
       <div class="progressBar">
         <h4>HTML5</h4>
@@ -56,17 +57,32 @@
   </div>
 
   <div class="contact" id="contact">
-    <form action="mailto:mandy@competa.com" method="post" enctype="text/plain">
-Name:<br>
-<input type="text" name="name"><br>
-E-mail:<br>
-<input type="text" name="mail"><br>
-Comment:<br>
-<input type="text" name="comment" size="50"><br><br>
-<input type="submit" value="Send">
-<input type="reset" value="Reset">
-</form>
-  </div>
+    <h2>Contact</h2>
+    <div class="contactContainer">
+
+      <form action="mailto:mandy@competa.com" method="post" enctype="text/plain">
+        <div>
+          <span>Name:<span>
+            <input type="text" name="name">
+          </div>
+          <div>
+            <span>E-mail:<span>
+              <input type="text" name="subject">
+            </div>
+            <div>
+              <span>Subject:<span>
+                <input type="text" name="mail">
+              </div>
+              <div>
+                <span>Comment:<span>
+                  <textarea name="comment" maxlength="1000" cols="25" rows="6"></textarea>
+                </div>
+                <div>
+                  <input type="submit" value="Send">
+                </div>
+              </form>
+            </div>
+    </div>
 
 </div>
 
