@@ -65,14 +65,15 @@ li a.active {
   text-align: center;
   border: 1px solid white;
   background-color: white;
+  margin-bottom: 10vh;
 }
 .about>p:last-child{
   margin-bottom: 6%;
 }
 .skills{
   border: 1px solid white;
-  background-color: #2E2E2E;
-  color:white;
+  background-color: white;
+  margin-bottom: 10vh;
   text-align: center;
 }
 .contact{
@@ -81,6 +82,7 @@ li a.active {
   text-align: center;
 }
 .contact-container {
+
   padding: 20px;
   max-width: 350px;
   min-width: 150px;
@@ -88,7 +90,6 @@ li a.active {
 }
 
 .content-container {
-  color:black;
   background: #efefef;
   padding: 20px;
   max-width: 350px;
@@ -147,24 +148,17 @@ li a.active {
 
 .value-100 { width: 100%; }
 
-.form-group-container{
-    max-width: 460px;
-    margin: 10px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
 .form-input{
     padding: 3px;
-    width: calc(100% - 100px);
+    float: right;
+    margin-bottom: 10px;
+    width: calc(100% - 60px);
 }
 
 .form-textarea{
     display: block;
     padding: 3px;
-    width: 100%;
+    width: 98%;
     height: 200px;
 }
 
@@ -173,7 +167,8 @@ li a.active {
     background-color: #2597D2;
     color: white;
     border: none;
-    padding: 5px;
+    margin-top: 10px;
+    padding: 6px 2px;
 }
 
 .form-submit:hover{
