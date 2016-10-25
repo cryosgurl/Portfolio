@@ -65,15 +65,14 @@ li a.active {
   text-align: center;
   border: 1px solid white;
   background-color: white;
-  margin-bottom: 10vh;
 }
 .about>p:last-child{
   margin-bottom: 6%;
 }
 .skills{
   border: 1px solid white;
-  background-color: white;
-  margin-bottom: 10vh;
+  color:white;
+  background-color: #2E2E2E;
   text-align: center;
 }
 .contact{
@@ -106,6 +105,7 @@ li a.active {
 .progress-bar h4 {
   font-size: 21px;
   text-transform: none;
+  color:black;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   margin-bottom: 7px;
