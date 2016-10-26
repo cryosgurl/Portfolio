@@ -1,14 +1,7 @@
 <?php include 'inc/header.php'; ?>
 
 <div class="site-wrap">
-  <div class="navigation">
-    <ul>
-      <li><a href="#default">Home</a></li>
-      <li><a href="#about-me">About</a></li>
-      <li><a href="#my-skills">Skills</a></li>
-      <li><a href="#contact-id">Contact</a></li>
-    </ul>
-  </div>
+  <?php include 'inc/nav.php'; ?>
   <div class="home" id="default" >
     <h1>Mandy van Zetten</h1>
     <h3>Frontend Developer</h3>
@@ -57,7 +50,6 @@
 
           <label class="form-label" for="input-mail">Mail: </label>
           <input type="text" class="form-input" id="input-mail" name="email" maxlength="80" size="30" placeholder="ex: john@doe.com">
-
 
           <textarea id="input-message" class="form-textarea" placeholder="Message" name="comments"></textarea>
           <button type="submit" class="form-submit">Send message</button>
