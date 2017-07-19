@@ -4,7 +4,19 @@
   font-family: 'lato-regular', sans-serif;
 }
 .header_top{
-  height: 5%;
+  display: flex;
+  height: 35px;
   width: 100%;
-  background-color: red;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header_top-img{
+  margin-right: 10px;
+}
+.header_top-img:last-child{
+  margin-right: 50px;
+}
+.link_img {
+  width:14px;
+  height:14px;
 }
