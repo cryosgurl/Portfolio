@@ -1,0 +1,14 @@
+### Node ###
+node_modules
+# Logs
+logs
+*.log
+npm-debug.log*
+
+### Public ###
+css/*
+js/*
+style.css
+
+### Grunt ###
+.sass-cache
