@@ -8,7 +8,7 @@ module.exports = function(grunt) {
           sourcemap: 'none'
         },
         files: {
-          'style.css': 'sass/global.scss',      
+          'css/style.css': 'sass/global.scss',
           'css/dev.style.css': 'sass/global.scss',
         }
       }
@@ -21,8 +21,8 @@ module.exports = function(grunt) {
         ]
       },
       dist: {
-        src: 'style.css',
-        dest: 'style.css'
+        src: 'css/style.css',
+        dest: 'css/style.css'
       },
       dev: {
         src: 'css/dev.style.css',
@@ -32,7 +32,7 @@ module.exports = function(grunt) {
     cssmin: {
       target: {
         files: {
-          'style.css': 'style.css'
+          'css/style.css': 'css/style.css'
         }
       }
     },
@@ -93,6 +93,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-sass');
-  
+
   grunt.registerTask('default', ['jshint','uglify','sass','postcss','concat','cssmin','watch']);
 };

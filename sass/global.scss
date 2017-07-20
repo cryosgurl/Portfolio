@@ -1,7 +1,7 @@
 * {
   margin:0;
   padding:0;
-  font-family: 'Lato-Regular', sans-serif;
+  font-family: 'lato', sans-serif;
 }
 .header_top{
   display: flex;
@@ -22,15 +22,35 @@
 }
 .title_container{
   display: flex;
+  flex-direction: column;
   background-color: #850005;
   height:75vh;
   width:100%;
   align-items: center;
   justify-content: center;
   .title_container-text{
+    position: absolute;
+    background-color: #850005;
+    z-index: 10;
+    & label{
+      font-size: 30px;
+      color: #fff;
+      letter-spacing: 10px;
+    }
+  }
+  .title_container-square{
+    position: absolute;
+    margin: auto;
+    border: 1px solid white;
+    height: 100px;
+    width: 275px;
+  }
+  .title_container-subtext{
+    position: relative;
+    margin-top: 135px;
     color: #fff;
-    font-size: 27px;
-    letter-spacing: 10px;
+    font-size: 15px;
+    letter-spacing: 5px;
 
   }
 }
