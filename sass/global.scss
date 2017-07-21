@@ -108,7 +108,7 @@
       background-color: #fff;
       height: 50px;
       z-index: 10;
-      margin: 7% auto 0;
+      margin: 7% auto 3%;
       text-align: center;
       & label{
         background-color: #fff;
@@ -131,6 +131,10 @@
   text-align: center;
   margin: 0 auto;
   width: 60%;
+  & p {
+    margin-bottom:10px;
+    font-size: 16px;
+  }
 }
 
 .skills_container{
@@ -156,6 +160,7 @@
   .work_container-item-left{
     display: flex;
     width: 70%;
+    margin-bottom: 5%;
     align-self: flex-start;
     height: 300px;
     & img{
@@ -192,6 +197,7 @@
     display: flex;
     width: 70%;
     height: 300px;
+    margin-bottom: 5%;
     align-self: flex-end;
     justify-content: flex-end;
     & .work_text {

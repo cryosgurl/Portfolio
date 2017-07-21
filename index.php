@@ -11,13 +11,13 @@
 <?php include 'inc/about.php'; ?>
 
   <div class="home_title">
-    <label>LANGUAGE I SPEAK</label>
+    <label>LANGUAGES I SPEAK</label>
     <div class="text_block"></div>
   </div>
 <?php include 'inc/skills.php'; ?>
 
   <div class="home_title">
-    <label>RECENT PROJECT</label>
+    <label>RECENT PROJECTS</label>
     <div class="text_block"></div>
   </div>
   <?php include 'inc/work.php'; ?>
