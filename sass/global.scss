@@ -159,12 +159,12 @@
     flex-direction: column;
   .work_container-item-left{
     display: flex;
-    width: 70%;
+    width: 90%;
     margin-bottom: 5%;
     align-self: flex-start;
     height: 300px;
     & img{
-      width: 55%;
+      width: 45%;
       border-right: 15px solid #850005;
     }
     & .arrow_right {
@@ -195,7 +195,7 @@
     }
   .work_container-item-right{
     display: flex;
-    width: 70%;
+    width: 90%;
     height: 300px;
     margin-bottom: 5%;
     align-self: flex-end;
@@ -227,9 +227,28 @@
       }
     }
     & img{
-      width: 55%;
+      width: 45%;
       border-left: 15px solid #850005;
     }
 
+  }
+}
+.footer_bottom{
+  background-color: #2A2A2C;
+  display: flex;
+  height: 75px;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  &-img{
+    margin-right: 15px;
+    &:last-child{
+      margin-right: 70px;
+    }
+    .link_img {
+      filter: invert(100%);
+      width:20px;
+      height:20px;
+    }
   }
 }
