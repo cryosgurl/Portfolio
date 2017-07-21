@@ -1,4 +1,4 @@
-<div class="header_top">
+<div id="home" class="header_top">
   <div class="header_top-img">
     <a href="https://www.linkedin.com/in/cryosgurl/"><img class="link_img" src="img/linkedin.svg" alt="linkedin"></a>
   </div>

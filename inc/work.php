@@ -2,7 +2,7 @@
 
 
   <div class="work_container-item-left">
-    <img src="img/mandy.jpg" alt="Mandy">
+    <img src="img/pdirekt.png" alt="Mandy">
     <div class="arrow_right"></div>
     <div class="work_text">
       <h4>P-DIREKT PORTAAL</h4>
@@ -19,11 +19,11 @@
       </p>
     </div>
     <div class="arrow_left"></div>
-    <img src="img/mandy.jpg" alt="Mandy">
+    <img src="img/nope.png" alt="Mandy">
   </div>
 
 <div class="work_container-item-left">
-  <img src="img/mandy.jpg" alt="Mandy">
+  <img src="img/competawebsite.jpg" alt="Mandy">
   <div class="arrow_right"></div>
   <div class="work_text">
     <h4>COMPETA WEBSITE</h4>
@@ -46,11 +46,11 @@ Dit project is nog in ontwikkeling, waarbij mijn werkzaamheden zullen veranderen
     </p>
   </div>
   <div class="arrow_left"></div>
-  <img src="img/mandy.jpg" alt="Mandy">
+  <img src="img/officedashboard.jpg" alt="Mandy">
 </div>
 
 <div class="work_container-item-left">
-  <img src="img/mandy.jpg" alt="Mandy">
+  <img src="img/ftsf.png" alt="Mandy">
   <div class="arrow_right"></div>
   <div class="work_text">
     <h4>FAIR TRADE SOFTWARE</h4>
@@ -68,7 +68,7 @@ verschillende blok elementen. Elk blok had andere functionaliteiten zoals; video
     </p>
   </div>
   <div class="arrow_left"></div>
-  <img src="img/mandy.jpg" alt="Mandy">
+  <img src="img/hhs.png" alt="Mandy">
 </div>
 
 
