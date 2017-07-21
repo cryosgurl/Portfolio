@@ -8,7 +8,7 @@
     </div>
 
     <div class="nav_image">
-      <img src="img/mandy.jpg" alt="Mandy">    
+      <img src="img/ChibiCryospf.png" alt="Mandy">
     </div>
 
     <div class="nav_item">
