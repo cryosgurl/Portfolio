@@ -1,5 +1,5 @@
 <div class="skills_container">
-  <div class="skills_container_column">
+  <div class="skills_container-column">
     <p>HTML(5)</p>
     <p>CSS(3)</p>
     <p>SASS(SCSS)</p>
@@ -7,7 +7,7 @@
     <p>SCRUM</p>
     <p>AGILE</p>
   </div>
-  <div class="skills_container_column">
+  <div class="skills_container-column">
     <p>ANGULARJS</p>
     <p>PHP</p>
     <p>BEM</p>
@@ -15,7 +15,7 @@
     <p>NPM</p>
     <p>BOWER</p>
   </div>
-  <div class="skills_container_column">
+  <div class="skills_container-column">
     <p>GRUNT</p>
     <p>GIT</p>
     <p>WORDPRESS</p>

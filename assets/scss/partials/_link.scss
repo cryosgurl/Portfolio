@@ -1,0 +1,17 @@
+.header_top{
+  display: flex;
+  height: 35px;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  &-img{
+    margin-right: 15px;
+    &:last-child{
+      margin-right: 70px;
+    }
+    .link_img {
+      width:14px;
+      height:14px;
+    }
+  }
+}

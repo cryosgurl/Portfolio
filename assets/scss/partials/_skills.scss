@@ -1,0 +1,15 @@
+.skills_container{
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  margin: 0 auto;
+  &-column {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 33.33%;
+    & p {
+      line-height: 30px;
+    }
+  }
+}
