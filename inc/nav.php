@@ -8,7 +8,7 @@
     </div>
 
     <div class="nav_image">
-      <img src="img/Mandyy.jpg" alt="Mandy">
+      <img src="assets/img/Mandyy.jpg" alt="Mandy">
     </div>
 
     <div class="nav_item">

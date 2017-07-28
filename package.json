@@ -1,32 +1,18 @@
 {
-  "name": "gruntfile",
+  "name": "ftsf",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "FTSF",
+  "main": "gulpfile.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cryosgurl/gruntfile.git"
+    "url": "https://github.com/Competa-IT/ftsf.eu"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cryosgurl/gruntfile/issues"
-  },
-  "homepage": "https://github.com/cryosgurl/gruntfile#readme",
   "devDependencies": {
-    "autoprefixer": "^6.7.7",
-    "grunt": "~0.4.4",
-    "grunt-contrib-concat": "^1.0.1",
-    "grunt-contrib-cssmin": "latest",
-    "grunt-contrib-jshint": "latest",
-    "grunt-contrib-sass": "latest",
-    "grunt-contrib-uglify": "latest",
-    "grunt-contrib-watch": "latest",
-    "grunt-jsvalidate": "^0.2.2",
-    "grunt-postcss": "^0.8.0",
-    "rucksack-css": "^0.9.1"
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-sass": "^3.1.0",
+    "require-dir": "^0.3.2",
+    "run-sequence": "^2.0.0"
   }
 }
