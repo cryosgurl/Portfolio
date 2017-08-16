@@ -1,7 +1,7 @@
 .title_container{
   display: flex;
   flex-direction: column;
-  background-color: #850005;
+  background-color: $darkerred;
   height:75vh;
   width:100%;
   align-items: center;
@@ -11,11 +11,11 @@
   }
   &-text{
     position: absolute;
-    background-color: #850005;
+    background-color: $darkerred;
     z-index: 10;
     & label{
       font-size: 30px;
-      color: #fff;
+      color: $white;
       letter-spacing: 10px;
       @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
         font-size: 50px;
@@ -25,7 +25,7 @@
   &-square{
     position: absolute;
     margin: auto;
-    border: 1px solid white;
+    border: 1px solid $white;
     height: 100px;
     width: 275px;
     @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -35,7 +35,7 @@
   &-subtext{
     position: relative;
     margin-top: 135px;
-    color: #fff;
+    color: $white;
     font-size: 15px;
     letter-spacing: 5px;
     @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
