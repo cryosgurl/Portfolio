@@ -1,6 +1,4 @@
 <div class="work_container">
-
-
   <div class="work_container-item-left">
     <img src="assets/img/pdirekt.png" alt="Mandy">
     <div class="arrow_right"></div>
