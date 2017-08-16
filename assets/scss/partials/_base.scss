@@ -12,6 +12,9 @@
         font-size: 17px;
         color: #000;
         letter-spacing: 5px;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+          font-size: 22px;
+        }
       }
       .text_block {
         width: 130px;

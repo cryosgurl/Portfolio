@@ -7,16 +7,27 @@
     display: flex;
     width: 90%;
     margin-bottom: 5%;
-    align-self: flex-start;
+    align-self: center;
     height: 300px;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+      display: block;
+      margin-bottom: 67%;
+    }
     & img{
       width: 45%;
       border-right: 15px solid #850005;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        width: 100%;
+        border-right: 0;
+      }
     }
     & .arrow_right {
       	position: relative;
       	background: #850005;
         margin-top: 5%;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+          display: none;
+        }
         &:after , &:before {
         	border: solid transparent;
         	content: " ";
@@ -28,15 +39,22 @@
           border-left-color: #850005;
           border-width: 15px;
           margin-top: -15px;
+
         }
       }
     }
     & .work_text {
       margin-left: 3%;
       margin-top: 2%;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        font-size: 20px;
+      }
       & h4 {
         font-weight: bold;
         margin-bottom: 15px;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+          font-size: 22px;
+        }
       }
     }
   &-item-right{
@@ -46,18 +64,35 @@
     margin-bottom: 5%;
     align-self: flex-end;
     justify-content: flex-end;
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+      display: flex;
+      flex-direction: column-reverse;
+      align-self: center;
+      margin-bottom: 67%;
+    }
     & .work_text {
+      display: flex;
+      flex-direction: column;
       margin-right: 3%;
       margin-top: 2%;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        font-size: 20px;
+      }
       & h4 {
         font-weight: bold;
         margin-bottom: 15px;
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+          font-size: 22px;
+        }
       }
     }
     & .arrow_left {
       position: relative;
       background: #850005;
       margin-top: 5%;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        display: none;
+      }
       &:after , &:before {
         right: 100%;
         border: solid transparent;
@@ -75,6 +110,10 @@
     & img{
       width: 45%;
       border-left: 15px solid #850005;
+     @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        width: 100%;
+        border-left: 0;
+      }
     }
 
   }

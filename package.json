@@ -1,11 +1,11 @@
 {
-  "name": "ftsf",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "FTSF",
+  "description": "PF",
   "main": "gulpfile.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Competa-IT/ftsf.eu"
+    "url": "https://github.com/cryosgurl/portfolio"
   },
   "devDependencies": {
     "del": "^3.0.0",
